@@ -93,10 +93,10 @@ curl http://localhost:1234/media_files
 
 ```json
 {
-  "audio": ["path/to/file1.mp3", "path/to/file2.wav"],
-  "video": ["path/to/file3.mp4"],
-  "images": ["path/to/file4.jpg", "path/to/file5.png"]
+  "audio": ["file1.mp3", "file2.wav"],
+  "video": ["file3.mp4"],
+  "images": ["file4.jpg", "file5.png"]
 }
 ```
 
-Каждая категория содержит массив строк с путями к соответствующим файлам.
+Каждая категория содержит массив строк соответствующими файлами.
